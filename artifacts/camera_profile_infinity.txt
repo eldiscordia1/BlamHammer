@@ -1,0 +1,33 @@
+         1232882 function calls (1232858 primitive calls) in 2.759 seconds
+
+   Ordered by: cumulative time
+   List reduced from 260 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    1.541    0.077    2.363    0.118 {built-in method qWait}
+    95/92    0.016    0.000    1.185    0.013 C:\Users\Knigh\Downloads\BlamHammer!\tests\profile_camera.py:21(wrapped)
+        3    0.151    0.050    0.520    0.173 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:44(paintEvent)
+        1    0.001    0.001    0.384    0.384 {built-in method mouseClick}
+        2    0.000    0.000    0.383    0.191 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:456(mousePressEvent)
+        1    0.000    0.000    0.364    0.364 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\app.py:240(select)
+        1    0.000    0.000    0.364    0.364 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\app.py:273(refresh)
+        1    0.051    0.051    0.363    0.363 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\app.py:291(refresh_properties)
+    64854    0.279    0.000    0.279    0.000 {method 'drawPolygon' of 'PySide6.QtGui.QPainter' objects}
+    43253    0.029    0.000    0.210    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:442(stem)
+    43253    0.012    0.000    0.168    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:398(name)
+    43253    0.049    0.000    0.157    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:359(_tail)
+       72    0.059    0.001    0.148    0.002 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:380(paintGL)
+       15    0.062    0.004    0.120    0.008 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\app.py:456(load_visible_previews)
+    43253    0.052    0.000    0.091    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:281(_parse_path)
+    32674    0.078    0.000    0.089    0.000 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:32(project)
+    43253    0.034    0.000    0.057    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:135(__init__)
+        1    0.021    0.021    0.042    0.042 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:338(prepare_selection)
+     1097    0.034    0.000    0.034    0.000 {built-in method numpy.asarray}
+      171    0.006    0.000    0.033    0.000 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:280(camera)
+      344    0.009    0.000    0.024    0.000 C:\Users\Knigh\Downloads\BlamHammer!\.venv\Lib\site-packages\numpy\_core\numeric.py:1563(cross)
+     1944    0.001    0.000    0.022    0.000 C:\Users\Knigh\Downloads\BlamHammer!\.venv\Lib\site-packages\OpenGL\latebind.py:35(__call__)
+        1    0.021    0.021    0.021    0.021 {method 'addItems' of 'PySide6.QtWidgets.QComboBox' objects}
+    43253    0.013    0.000    0.020    0.000 C:\Users\Knigh\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py:632(__new__)
+       62    0.002    0.000    0.019    0.000 C:\Users\Knigh\Downloads\BlamHammer!\blamhammer\viewports.py:495(move_camera)
+
+

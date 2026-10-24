@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\tags\\levels\\test\\tutorial\\tutorial.scenario_structure_bsp",
+      "render_triangles": 984,
+      "max_world_position_error": 9.5367431640625e-07,
+      "max_uv_error": 5.960464477539063e-08,
+      "collision_surfaces": 1003,
+      "bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\tags\\levels\\blamhammer\\bsp_import_verification_tutorial\\bsp_import_verification_tutorial.scenario_structure_bsp",
+      "project": "C:\\Users\\Knigh\\Downloads\\BlamHammer!\\artifacts\\imported_tutorial.hceproj",
+      "map": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\maps\\bsp_import_verification_tutorial.map",
+      "map_bytes": 91332095
+    },
+    {
+      "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\tags\\levels\\test\\bloodgulch\\bloodgulch.scenario_structure_bsp",
+      "render_triangles": 5503,
+      "max_world_position_error": 3.814697265625e-05,
+      "max_uv_error": 2.384185791015625e-07,
+      "collision_surfaces": 5101,
+      "bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\tags\\levels\\blamhammer\\bsp_import_verification_bloodgulch\\bsp_import_verification_bloodgulch.scenario_structure_bsp",
+      "project": "C:\\Users\\Knigh\\Downloads\\BlamHammer!\\artifacts\\imported_bloodgulch.hceproj"
+    }
+  ]
+}

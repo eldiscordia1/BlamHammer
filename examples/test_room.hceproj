@@ -1,0 +1,523 @@
+{
+  "name": "BlamHammer test room",
+  "brushes": [
+    {
+      "name": "Room · four walls, floor, ceiling",
+      "vertices": [
+        [
+          -800.0,
+          -1000.0,
+          0.0
+        ],
+        [
+          800.0,
+          -1000.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          -800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          -800.0,
+          -1000.0,
+          800.0
+        ],
+        [
+          800.0,
+          -1000.0,
+          800.0
+        ],
+        [
+          800.0,
+          1000.0,
+          800.0
+        ],
+        [
+          -800.0,
+          1000.0,
+          800.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "material": "digsite\\levels\\dusk\\shaders\\grass.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "material": "+sky",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "material": "+sky",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            6,
+            5
+          ],
+          "material": "+sky",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            7,
+            6
+          ],
+          "material": "+sky",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            0,
+            4,
+            7
+          ],
+          "material": "+sky",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "room",
+      "id": "c8e5cab9ed38454f8d682ca0021891df"
+    },
+    {
+      "name": "Raised platform",
+      "vertices": [
+        [
+          100.0,
+          100.0,
+          0.0
+        ],
+        [
+          500.0,
+          100.0,
+          0.0
+        ],
+        [
+          500.0,
+          500.0,
+          0.0
+        ],
+        [
+          100.0,
+          500.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0,
+          200.0
+        ],
+        [
+          500.0,
+          100.0,
+          200.0
+        ],
+        [
+          500.0,
+          500.0,
+          200.0
+        ],
+        [
+          100.0,
+          500.0,
+          200.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            6,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            7,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            0,
+            4,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "7d5dc12112074786b179503ec583e7dc"
+    },
+    {
+      "name": "Ramp to platform",
+      "vertices": [
+        [
+          100.0,
+          -300.0,
+          0.0
+        ],
+        [
+          500.0,
+          -300.0,
+          0.0
+        ],
+        [
+          500.0,
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0,
+          200.0
+        ],
+        [
+          500.0,
+          100.0,
+          200.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            0,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "8164620fca6d48ac867231f8ba3c91b2"
+    }
+  ],
+  "markers": [
+    {
+      "name": "Red start 1",
+      "kind": "player_start",
+      "position": [
+        -500,
+        -700,
+        50
+      ],
+      "yaw": 45.0,
+      "team": 0,
+      "tag": "",
+      "id": "add9a60f7429442283d051a9413367de"
+    },
+    {
+      "name": "Blue start 2",
+      "kind": "player_start",
+      "position": [
+        -500,
+        600,
+        50
+      ],
+      "yaw": -32.005383208083494,
+      "team": 1,
+      "tag": "",
+      "id": "9e7afc9440bb4c11b55374b507b3f0a2"
+    },
+    {
+      "name": "Red start 3",
+      "kind": "player_start",
+      "position": [
+        500,
+        -700,
+        50
+      ],
+      "yaw": 104.03624346792648,
+      "team": 0,
+      "tag": "",
+      "id": "80cdd160aece411094d0de9b509cef39"
+    },
+    {
+      "name": "Blue start 4",
+      "kind": "player_start",
+      "position": [
+        -500,
+        0,
+        50
+      ],
+      "yaw": 7.125016348901798,
+      "team": 1,
+      "tag": "",
+      "id": "6b016bade6ac4c63a774530e356f0074"
+    },
+    {
+      "name": "Assault rifle pickup",
+      "kind": "weapon",
+      "position": [
+        0,
+        -500,
+        50
+      ],
+      "yaw": 0.0,
+      "team": 0,
+      "tag": "item collections\\single weapons\\assault rifle.item_collection",
+      "id": "2aad6990b4fa48499b453319d5272b02"
+    }
+  ],
+  "grid": 25.0,
+  "snap": true,
+  "hek": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK",
+  "level_dir": "levels\\blamhammer\\blamhammer_demo",
+  "bsp": "blamhammer_demo",
+  "scenario_type": "multiplayer",
+  "sky": "sky\\sky_icefields\\sky_icefields",
+  "author": "",
+  "notes": "",
+  "version": 1
+}

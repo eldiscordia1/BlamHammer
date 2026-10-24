@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "selected_shaders": [
+    "digsite\\levels\\dusk\\shaders\\grass.shader_environment",
+    "digsite\\levels\\indoor\\_dig\\shaders\\grass.shader_environment"
+  ],
+  "compiled_shader_references": [
+    "blamhammer\\shaders\\bh_1ef71a41a73f00947a56dce0_s",
+    "blamhammer\\shaders\\bh_9c1e1453c02b595258c9cd97_s",
+    "levels\\test\\tutorial\\shaders\\example_tutorial_panels"
+  ],
+  "original_tags_unchanged": true,
+  "project_unchanged": true,
+  "map": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\maps\\blamhammer_shader_verify.map",
+  "map_bytes": 89242700
+}

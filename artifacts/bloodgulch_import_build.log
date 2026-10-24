@@ -1,0 +1,106 @@
+Exported 11344 triangles to C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_bloodgulch\models\bsp_import_verification_bloodgulch.jms
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" structure levels\blamhammer\bsp_import_verification_bloodgulch bsp_import_verification_bloodgulch
+building intermediate geometry...
+
+building collision geometry...
+reducing collision geometry...
+building collision bsp...
+reducing collision bsp...
+verifying collision geometry...
+verifying collision bsp...
+building portals...
+
+building render geometry...
+
+building subclusters...
+
+building pvs...
+
+building pvs...
+
+building structure lens flares...done
+
+
+
+
+
+structure bsp "levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch"
+
+BSP has 10961 nodes, 5416 leaves
+
+5503 surfaces and 14922 vertices in 54 material groups
+
+0 portals, 1 clusters
+
+
+
+       644Kb collision data (44Kb vertices, 189Kb edges, 59Kb surfaces)
+
+       919Kb render data (594Kb vertices, 135Kb surfaces,
+
+                          148Kb nodes/leaves, 27Kb clusters)
+
+         0Kb pathfinding data
+
+----------------------
+
+      1757Kb  (without debug information)
+
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192626-structure.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch.scenario_structure_bsp, C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch.scenario
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_bloodgulch\models\scenario-placement.json
+Scenario synchronized and re-read: 0 placements, multiplayer.
+Exported 11344 triangles to C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_bloodgulch\models\bsp_import_verification_bloodgulch.jms
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" structure levels\blamhammer\bsp_import_verification_bloodgulch bsp_import_verification_bloodgulch
+building intermediate geometry...
+
+building collision geometry...
+reducing collision geometry...
+building collision bsp...
+reducing collision bsp...
+verifying collision geometry...
+verifying collision bsp...
+building portals...
+
+building render geometry...
+
+building subclusters...
+
+building pvs...
+
+building pvs...
+
+indoor maximum (from sky sky\clear afternoon\clear afternoon) is 120.000000 world units
+
+building structure lens flares...done
+
+
+
+
+
+structure bsp "levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch"
+
+BSP has 10961 nodes, 5416 leaves
+
+5503 surfaces and 14922 vertices in 54 material groups
+
+0 portals, 1 clusters
+
+
+
+       644Kb collision data (44Kb vertices, 189Kb edges, 59Kb surfaces)
+
+       919Kb render data (594Kb vertices, 135Kb surfaces,
+
+                          148Kb nodes/leaves, 27Kb clusters)
+
+         0Kb pathfinding data
+
+----------------------
+
+      1757Kb  (without debug information)
+
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192633-structure.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch.scenario_structure_bsp, C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_bloodgulch\bsp_import_verification_bloodgulch.scenario
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_bloodgulch\models\scenario-placement.json
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_bloodgulch\models\scenario-placement.json

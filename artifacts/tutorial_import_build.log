@@ -1,0 +1,155 @@
+Exported 2230 triangles to C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_tutorial\models\bsp_import_verification_tutorial.jms
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" structure levels\blamhammer\bsp_import_verification_tutorial bsp_import_verification_tutorial
+building intermediate geometry...
+
+building collision geometry...
+reducing collision geometry...
+building collision bsp...
+reducing collision bsp...
+verifying collision geometry...
+verifying collision bsp...
+building portals...
+
+building render geometry...
+
+building subclusters...
+
+building pvs...
+
+building pvs...
+
+building structure lens flares...done
+
+
+
+
+
+structure bsp "levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial"
+
+BSP has 1232 nodes, 590 leaves
+
+984 surfaces and 2228 vertices in 14 material groups
+
+0 portals, 1 clusters
+
+
+
+       112Kb collision data (8Kb vertices, 39Kb edges, 11Kb surfaces)
+
+       133Kb render data (88Kb vertices, 19Kb surfaces,
+
+                          16Kb nodes/leaves, 4Kb clusters)
+
+         0Kb pathfinding data
+
+----------------------
+
+       275Kb  (without debug information)
+
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192610-structure.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial.scenario_structure_bsp, C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial.scenario
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_tutorial\models\scenario-placement.json
+Scenario synchronized and re-read: 1 placements, multiplayer.
+Exported 2230 triangles to C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_tutorial\models\bsp_import_verification_tutorial.jms
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" structure levels\blamhammer\bsp_import_verification_tutorial bsp_import_verification_tutorial
+building intermediate geometry...
+
+building collision geometry...
+reducing collision geometry...
+building collision bsp...
+reducing collision bsp...
+verifying collision geometry...
+verifying collision bsp...
+building portals...
+
+building render geometry...
+
+building subclusters...
+
+building pvs...
+
+building pvs...
+
+indoor maximum (from sky sky\clear afternoon\clear afternoon) is 120.000000 world units
+
+building structure lens flares...done
+
+
+
+
+
+structure bsp "levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial"
+
+BSP has 1232 nodes, 590 leaves
+
+984 surfaces and 2228 vertices in 14 material groups
+
+0 portals, 1 clusters
+
+
+
+       112Kb collision data (8Kb vertices, 39Kb edges, 11Kb surfaces)
+
+       133Kb render data (88Kb vertices, 19Kb surfaces,
+
+                          16Kb nodes/leaves, 4Kb clusters)
+
+         0Kb pathfinding data
+
+----------------------
+
+       275Kb  (without debug information)
+
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192613-structure.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial.scenario_structure_bsp, C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial.scenario
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_tutorial\models\scenario-placement.json
+Sapien placement guide: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\data\levels\blamhammer\bsp_import_verification_tutorial\models\scenario-placement.json
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" lightmaps levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial bsp_import_verification_tutorial 0 0.3
+i'm going to render debug lightmaps for bsp_import_verification_tutorial of levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial, and i'll stop when red+blue+green = 0.300000.
+
+Hit control-c now if this isn't right.
+
+WARNING 1 clusters in structure_bsp levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial have no background sound or sound environment.
+
+start levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial
+
+0.000000
+
+0.391612
+
+bitmap created: #128x#128, high-color, 32K-bytes
+
+finished levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial
+
+done
+
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192617-lightmaps.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tags\levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial.bitmap
+> "C:\Program Files (x86)\Steam\steamapps\common\HCEEK\tool.exe" build-cache-file levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial classic none
+WARNING 1 clusters in structure_bsp levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial have no background sound or sound environment.
+
+WARNING hs: Did not find scripts directory for scenario, no level scripts will be used: data\levels\blamhammer\bsp_import_verification_tutorial\scripts
+
+Successfully rebuilt 1 script files
+
+recompiling scripts after scenarios were merged.
+
+culling uncompressed model vertices...done
+culling uncompressed structure bsp vertices...done
+culling uncompressed model animation data...done
+building predicted resources for structures...done
+structure bsp 'levels\blamhammer\bsp_import_verification_tutorial\bsp_import_verification_tutorial' tags 0.16M, vertices 0.15M, 0 breakables
+adding bitmaps...done (691 bitmaps for 64.39M)
+adding sounds...done (929 sounds for 10.26M)
+tag headers and names are 0.17M
+streaming model vertex and index buffers...done
+streaming tags......................done
+writing vertex and index buffers...done 6.64M
+writing tags...done (2275 tags for 5.49M)
+total tag size is 5.65M (58.35M free)
+total vbuf size is 6.79M (57.21M free)
+finalizing 87.10M...copying temporary uncompressed cache file.bin to maps\bsp_import_verification_tutorial.map...done
+successfully built cache file.
+Exit code: 0 · log: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\reports\blamhammer\20261024-192618-build-cache-file.log
+Verified outputs: C:\Program Files (x86)\Steam\steamapps\common\HCEEK\maps\bsp_import_verification_tutorial.map
+MAP packaged. In-game spawn, lighting and gameplay validation is a separate check.

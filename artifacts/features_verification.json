@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "tool_build": "2023.07.17.176677.1-QFE1",
+  "triangles": 266,
+  "materials": 4,
+  "bsp_bytes": 91163,
+  "map_bytes": 88788394,
+  "jms": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\data\\levels\\blamhammer\\blamhammer_features\\models\\blamhammer_features.jms",
+  "bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\tags\\levels\\blamhammer\\blamhammer_features\\blamhammer_features.scenario_structure_bsp",
+  "map": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\maps\\blamhammer_features.map",
+  "project": "C:\\Users\\Knigh\\Downloads\\BlamHammer!\\examples\\subdivision_clip.hceproj",
+  "checks": [
+    "selected-face subdivision",
+    "deformed terrain",
+    "keep left",
+    "keep right",
+    "keep both separated",
+    "closed caps",
+    "materials and UVs",
+    "save/reload",
+    "independent JMS parser",
+    "structure",
+    "lightmaps",
+    "MAP"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "tool_build": "2023.07.17.176677.1-QFE1",
+  "surfaces": 32,
+  "materials": 3,
+  "player_starts": 2,
+  "weapons": 1,
+  "vehicles": 1,
+  "scenery": 1,
+  "map_bytes": 88652346,
+  "map": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK\\maps\\blamhammer_verify.map",
+  "lighting_nonblack": true,
+  "save_reload": "passed",
+  "status": "passed"
+}

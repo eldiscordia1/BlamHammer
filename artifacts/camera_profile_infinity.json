@@ -1,0 +1,44 @@
+{
+  "PerspectiveView.pick": {
+    "calls": 1,
+    "total_ms": 19.03,
+    "max_ms": 19.03
+  },
+  "Editor.refresh_properties": {
+    "calls": 1,
+    "total_ms": 363.21,
+    "max_ms": 363.21
+  },
+  "PerspectiveView.invalidate_cache": {
+    "calls": 1,
+    "total_ms": 0.01,
+    "max_ms": 0.01
+  },
+  "Editor.refresh": {
+    "calls": 1,
+    "total_ms": 363.67,
+    "max_ms": 363.67
+  },
+  "OrthoView.paintEvent": {
+    "calls": 3,
+    "total_ms": 532.93,
+    "max_ms": 179.77
+  },
+  "PerspectiveView.prepare_selection": {
+    "calls": 1,
+    "total_ms": 44.11,
+    "max_ms": 44.11
+  },
+  "PerspectiveView.paintGL": {
+    "calls": 72,
+    "total_ms": 149.01,
+    "max_ms": 46.32
+  },
+  "Editor.load_visible_previews": {
+    "calls": 15,
+    "total_ms": 120.24,
+    "max_ms": 8.65
+  },
+  "max_event_gap_ms": 593.66,
+  "render_error": ""
+}

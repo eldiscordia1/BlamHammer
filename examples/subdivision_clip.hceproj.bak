@@ -1,0 +1,5230 @@
+{
+  "name": "Subdivision and clip verification",
+  "brushes": [
+    {
+      "name": "Room · four walls, floor, ceiling",
+      "vertices": [
+        [
+          -800.0,
+          -1000.0,
+          0.0
+        ],
+        [
+          800.0,
+          -1000.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          -800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          -800.0,
+          -1000.0,
+          800.0
+        ],
+        [
+          800.0,
+          -1000.0,
+          800.0
+        ],
+        [
+          800.0,
+          1000.0,
+          800.0
+        ],
+        [
+          -800.0,
+          1000.0,
+          800.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            6,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            7,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            0,
+            4,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "room",
+      "id": "b7fdc4dd8f284a9b8ed2e18389fba8f7"
+    },
+    {
+      "name": "Ceiling light",
+      "vertices": [
+        [
+          -100.0,
+          -100.0,
+          780.0
+        ],
+        [
+          100.0,
+          -100.0,
+          780.0
+        ],
+        [
+          100.0,
+          100.0,
+          780.0
+        ],
+        [
+          -100.0,
+          100.0,
+          780.0
+        ],
+        [
+          -100.0,
+          -100.0,
+          800.0
+        ],
+        [
+          100.0,
+          -100.0,
+          800.0
+        ],
+        [
+          100.0,
+          100.0,
+          800.0
+        ],
+        [
+          -100.0,
+          100.0,
+          800.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_lights_blue.shader_transparent_chicago",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            6,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            7,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            0,
+            4,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "d8f0c8c66cb643b0bb9ff3e3b64e0d80"
+    },
+    {
+      "name": "Editable terrain grid left",
+      "vertices": [
+        [
+          279.97474670410156,
+          250.0,
+          322.48736572265625
+        ],
+        [
+          282.7157897949219,
+          247.2589569091797,
+          323.09649658203125
+        ],
+        [
+          35.0,
+          494.9747619628906,
+          0.0
+        ],
+        [
+          35.0,
+          494.9747619628906,
+          18.341751098632812
+        ],
+        [
+          35.0,
+          550.0,
+          0.0
+        ],
+        [
+          146.35215759277344,
+          383.6225891113281,
+          227.77777099609375
+        ],
+        [
+          55.44306755065918,
+          474.53167724609375,
+          200.0
+        ],
+        [
+          79.97474670410156,
+          450.0,
+          207.49578857421875
+        ],
+        [
+          35.0,
+          494.9747619628906,
+          181.6582489013672
+        ],
+        [
+          35.0,
+          494.9747619628906,
+          200.0
+        ],
+        [
+          35.0,
+          550.0,
+          200.0
+        ],
+        [
+          100.89761352539062,
+          429.0771484375,
+          210.98292541503906
+        ],
+        [
+          118.33333587646484,
+          411.64141845703125,
+          219.21646118164062
+        ],
+        [
+          118.33333587646484,
+          450.0,
+          213.88888549804688
+        ],
+        [
+          118.33333587646484,
+          550.0,
+          200.0
+        ],
+        [
+          191.80670166015625,
+          338.16802978515625,
+          253.9122314453125
+        ],
+        [
+          201.6666717529297,
+          328.3080749511719,
+          261.5810852050781
+        ],
+        [
+          179.97474670410156,
+          350.0,
+          248.32492065429688
+        ],
+        [
+          201.6666717529297,
+          350.0,
+          255.55555725097656
+        ],
+        [
+          237.26124572753906,
+          292.7135009765625,
+          283.3333435058594
+        ],
+        [
+          201.6666717529297,
+          450.0,
+          227.77777099609375
+        ],
+        [
+          201.6666717529297,
+          550.0,
+          200.0
+        ],
+        [
+          535.0,
+          -5.0252532958984375,
+          0.0
+        ],
+        [
+          535.0,
+          -5.0252532958984375,
+          14.991581916809082
+        ],
+        [
+          535.0,
+          250.0,
+          100.0
+        ],
+        [
+          328.17034912109375,
+          201.8043975830078,
+          283.3333435058594
+        ],
+        [
+          285.0,
+          244.97474670410156,
+          322.9061584472656
+        ],
+        [
+          285.0,
+          250.0,
+          325.0
+        ],
+        [
+          368.3333435058594,
+          161.6414031982422,
+          258.7892761230469
+        ],
+        [
+          373.6248779296875,
+          156.349853515625,
+          254.6736297607422
+        ],
+        [
+          379.9747619628906,
+          150.0,
+          251.6750946044922
+        ],
+        [
+          368.3333435058594,
+          250.0,
+          283.3333435058594
+        ],
+        [
+          419.0794372558594,
+          110.89531707763672,
+          227.77777099609375
+        ],
+        [
+          451.6666564941406,
+          78.30809020996094,
+          217.820556640625
+        ],
+        [
+          464.5339660644531,
+          65.4407730102539,
+          211.7443389892578
+        ],
+        [
+          509.988525390625,
+          19.98622703552246,
+          200.0
+        ],
+        [
+          535.0,
+          -5.0252532958984375,
+          185.0084228515625
+        ],
+        [
+          535.0,
+          -5.0252532958984375,
+          200.0
+        ],
+        [
+          535.0,
+          50.0,
+          200.0
+        ],
+        [
+          479.9747619628906,
+          50.0,
+          209.17086791992188
+        ],
+        [
+          451.6666564941406,
+          150.0,
+          227.77777099609375
+        ],
+        [
+          451.6666564941406,
+          250.0,
+          241.6666717529297
+        ],
+        [
+          535.0,
+          150.0,
+          200.0
+        ],
+        [
+          535.0,
+          250.0,
+          200.0
+        ],
+        [
+          285.0,
+          550.0,
+          100.0
+        ],
+        [
+          535.0,
+          550.0,
+          0.0
+        ],
+        [
+          285.0,
+          350.0,
+          283.3333435058594
+        ],
+        [
+          368.3333435058594,
+          350.0,
+          255.55555725097656
+        ],
+        [
+          285.0,
+          450.0,
+          241.6666717529297
+        ],
+        [
+          285.0,
+          550.0,
+          200.0
+        ],
+        [
+          368.3333435058594,
+          450.0,
+          227.77777099609375
+        ],
+        [
+          368.3333435058594,
+          550.0,
+          200.0
+        ],
+        [
+          451.6666564941406,
+          350.0,
+          227.77777099609375
+        ],
+        [
+          535.0,
+          350.0,
+          200.0
+        ],
+        [
+          451.6666564941406,
+          450.0,
+          213.88888549804688
+        ],
+        [
+          451.6666564941406,
+          550.0,
+          200.0
+        ],
+        [
+          535.0,
+          450.0,
+          200.0
+        ],
+        [
+          535.0,
+          550.0,
+          200.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            27,
+            19,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            27,
+            0,
+            1
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            27,
+            1,
+            26
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            4,
+            2,
+            3
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            3,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            8,
+            10
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            10,
+            44
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            45,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            13,
+            6,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            10,
+            9,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            10,
+            8,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            10,
+            6,
+            14
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            13,
+            14,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            13,
+            7,
+            11
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            13,
+            11,
+            12
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            13,
+            12,
+            20
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            20,
+            12,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            10,
+            14,
+            44
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            13,
+            21,
+            14
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            20,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            15,
+            16
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            16,
+            19
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            17,
+            15
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            5,
+            17
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            19,
+            46
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            27,
+            46,
+            19
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            46,
+            48
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            14,
+            21,
+            44
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            13,
+            20,
+            21
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            18,
+            48,
+            20
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            21,
+            49,
+            44
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            20,
+            49,
+            21
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            20,
+            48,
+            49
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            24,
+            23,
+            22
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            24,
+            36,
+            23
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            38,
+            36,
+            24
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            24,
+            22,
+            45
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            27,
+            26,
+            25
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            27,
+            25,
+            31
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            31,
+            28,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            29,
+            30
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            31,
+            25,
+            28
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            31,
+            29,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            32,
+            33
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            33,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            38,
+            35,
+            37
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            38,
+            37,
+            36
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            38,
+            39,
+            35
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            38,
+            34,
+            39
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            34,
+            42
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            38,
+            42,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            30,
+            32
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            41,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            38,
+            24,
+            42
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            40,
+            42,
+            43
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            42,
+            24,
+            43
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            40,
+            43,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            45,
+            22,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            4,
+            44,
+            45
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            44,
+            57,
+            45
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            24,
+            45,
+            57
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            27,
+            47,
+            46
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            27,
+            31,
+            47
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            46,
+            47,
+            50
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            31,
+            52,
+            47
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            44,
+            49,
+            51
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            48,
+            51,
+            49
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            48,
+            50,
+            51
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            54,
+            50
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            44,
+            51,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            50,
+            55,
+            51
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            46,
+            50,
+            48
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            52,
+            54
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            24,
+            53,
+            43
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            41,
+            53,
+            52
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            41,
+            43,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            24,
+            56,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            52,
+            53,
+            56
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            31,
+            41,
+            52
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            44,
+            55,
+            57
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            50,
+            54,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            24,
+            57,
+            56
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            52,
+            56,
+            54
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            54,
+            57,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            54,
+            56,
+            57
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            2,
+            32,
+            30
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            28,
+            2,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            30,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            19,
+            25,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            5,
+            2,
+            17
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            2,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            6,
+            2,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            12,
+            11,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            11,
+            7,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            6,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            12,
+            2,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            16,
+            2,
+            19
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            15,
+            2,
+            16
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            15,
+            17,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            8,
+            6,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            19,
+            2,
+            25
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            28,
+            25,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            22,
+            23
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            23,
+            36
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            35,
+            39
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            33,
+            32
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            39,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            34,
+            33
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            36,
+            35
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            0,
+            25
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            25,
+            26
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            37,
+            35,
+            36
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "aa9d1a59a6cc492baaaf8ffcf6ab7e7e"
+    },
+    {
+      "name": "Editable terrain grid right",
+      "vertices": [
+        [
+          -35.0,
+          -50.0,
+          0.0
+        ],
+        [
+          -35.0,
+          -50.0,
+          200.0
+        ],
+        [
+          -35.0,
+          50.0,
+          200.0
+        ],
+        [
+          48.333335876464844,
+          -50.0,
+          200.0
+        ],
+        [
+          48.333335876464844,
+          50.0,
+          213.88888549804688
+        ],
+        [
+          -35.0,
+          150.0,
+          200.0
+        ],
+        [
+          48.333335876464844,
+          150.0,
+          227.77777099609375
+        ],
+        [
+          131.6666717529297,
+          -50.0,
+          200.0
+        ],
+        [
+          131.6666717529297,
+          50.0,
+          227.77777099609375
+        ],
+        [
+          131.6666717529297,
+          150.0,
+          255.55555725097656
+        ],
+        [
+          -35.0,
+          250.0,
+          100.0
+        ],
+        [
+          -35.0,
+          494.9747619628906,
+          0.0
+        ],
+        [
+          -35.0,
+          494.9747619628906,
+          18.341751098632812
+        ],
+        [
+          -35.0,
+          250.0,
+          200.0
+        ],
+        [
+          -35.0,
+          350.0,
+          200.0
+        ],
+        [
+          48.333335876464844,
+          250.0,
+          241.6666717529297
+        ],
+        [
+          48.333335876464844,
+          350.0,
+          227.77777099609375
+        ],
+        [
+          -35.0,
+          450.0,
+          200.0
+        ],
+        [
+          -35.0,
+          494.9747619628906,
+          181.6582489013672
+        ],
+        [
+          -35.0,
+          494.9747619628906,
+          200.0
+        ],
+        [
+          -14.55693244934082,
+          474.53167724609375,
+          200.0
+        ],
+        [
+          9.974746704101562,
+          450.0,
+          207.49578857421875
+        ],
+        [
+          48.333335876464844,
+          411.64141845703125,
+          219.21646118164062
+        ],
+        [
+          76.35215759277344,
+          383.6225891113281,
+          227.77777099609375
+        ],
+        [
+          30.897613525390625,
+          429.0771484375,
+          210.98292541503906
+        ],
+        [
+          131.6666717529297,
+          250.0,
+          283.3333435058594
+        ],
+        [
+          109.97474670410156,
+          350.0,
+          248.32492065429688
+        ],
+        [
+          121.80670166015625,
+          338.16802978515625,
+          253.9122314453125
+        ],
+        [
+          131.6666717529297,
+          328.3080749511719,
+          261.5810852050781
+        ],
+        [
+          212.71578979492188,
+          247.2589569091797,
+          323.09649658203125
+        ],
+        [
+          209.97474670410156,
+          250.0,
+          322.48736572265625
+        ],
+        [
+          167.26124572753906,
+          292.7135009765625,
+          283.3333435058594
+        ],
+        [
+          215.0,
+          -50.0,
+          100.0
+        ],
+        [
+          465.0,
+          -50.0,
+          0.0
+        ],
+        [
+          465.0,
+          -5.0252532958984375,
+          0.0
+        ],
+        [
+          465.0,
+          -5.0252532958984375,
+          14.991581916809082
+        ],
+        [
+          215.0,
+          -50.0,
+          200.0
+        ],
+        [
+          215.0,
+          50.0,
+          241.6666717529297
+        ],
+        [
+          298.3333435058594,
+          -50.0,
+          200.0
+        ],
+        [
+          298.3333435058594,
+          50.0,
+          227.77777099609375
+        ],
+        [
+          215.0,
+          150.0,
+          283.3333435058594
+        ],
+        [
+          258.17034912109375,
+          201.8043975830078,
+          283.3333435058594
+        ],
+        [
+          298.3333435058594,
+          150.0,
+          255.55555725097656
+        ],
+        [
+          309.9747619628906,
+          150.0,
+          251.6750946044922
+        ],
+        [
+          298.3333435058594,
+          161.6414031982422,
+          258.7892761230469
+        ],
+        [
+          303.6248779296875,
+          156.349853515625,
+          254.6736297607422
+        ],
+        [
+          381.6666564941406,
+          -50.0,
+          200.0
+        ],
+        [
+          381.6666564941406,
+          50.0,
+          213.88888549804688
+        ],
+        [
+          381.6666564941406,
+          78.30809020996094,
+          217.820556640625
+        ],
+        [
+          394.5339660644531,
+          65.4407730102539,
+          211.7443389892578
+        ],
+        [
+          465.0,
+          -50.0,
+          200.0
+        ],
+        [
+          465.0,
+          -5.0252532958984375,
+          185.0084228515625
+        ],
+        [
+          465.0,
+          -5.0252532958984375,
+          200.0
+        ],
+        [
+          439.988525390625,
+          19.98622703552246,
+          200.0
+        ],
+        [
+          409.9747619628906,
+          50.0,
+          209.17086791992188
+        ],
+        [
+          349.0794372558594,
+          110.89531707763672,
+          227.77777099609375
+        ],
+        [
+          215.0,
+          244.97474670410156,
+          322.9061584472656
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            0,
+            1,
+            10
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            32,
+            1
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            11,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            4,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            1,
+            3,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            1,
+            2,
+            10
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            4,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            1,
+            32,
+            3
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            8,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            2,
+            5,
+            10
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            6,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            5,
+            13,
+            10
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            5,
+            15,
+            13
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            5,
+            6,
+            15
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            4,
+            9,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            6,
+            25,
+            15
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            3,
+            32,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            7,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            4,
+            8,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            7,
+            32,
+            36
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            7,
+            37,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            7,
+            36,
+            37
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            8,
+            37,
+            40
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            6,
+            9,
+            25
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            8,
+            40,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            9,
+            29,
+            25
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            9,
+            40,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            56,
+            29
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            0,
+            10,
+            11
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            10,
+            12,
+            11
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            10,
+            18,
+            12
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            10,
+            17,
+            18
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            10,
+            13,
+            14
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            13,
+            15,
+            16
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            10,
+            14,
+            17
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            13,
+            16,
+            14
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            15,
+            27,
+            16
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            14,
+            24,
+            17
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            14,
+            16,
+            24
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            17,
+            20,
+            19
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            17,
+            19,
+            18
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            17,
+            21,
+            20
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            17,
+            24,
+            21
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            16,
+            23,
+            22
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            16,
+            22,
+            24
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            16,
+            26,
+            23
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            15,
+            25,
+            27
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            25,
+            31,
+            28
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            16,
+            27,
+            26
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            25,
+            28,
+            27
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            25,
+            30,
+            31
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            25,
+            29,
+            30
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            0,
+            33,
+            32
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            34,
+            33
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            33,
+            34,
+            35
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            33,
+            35,
+            51
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            32,
+            33,
+            50
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            33,
+            51,
+            50
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            32,
+            38,
+            36
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            36,
+            39,
+            37
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            36,
+            38,
+            39
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            37,
+            39,
+            42
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            32,
+            46,
+            38
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            38,
+            47,
+            39
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            39,
+            55,
+            42
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            37,
+            42,
+            40
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            42,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            40,
+            41,
+            56
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            42,
+            43,
+            45
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            42,
+            55,
+            43
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            42,
+            45,
+            44
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            42,
+            44,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            32,
+            50,
+            46
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            38,
+            46,
+            47
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            46,
+            53,
+            47
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            48,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            39,
+            47,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            49,
+            48
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            54,
+            49
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            46,
+            50,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            50,
+            51,
+            52
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            50,
+            52,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            47,
+            53,
+            54
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_metal_floor.shader_environment",
+          "scale": [
+            150,
+            125
+          ],
+          "offset": [
+            0.25,
+            0.5
+          ],
+          "rotation": 15
+        },
+        {
+          "indices": [
+            11,
+            12,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            12,
+            18,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            18,
+            20,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            22,
+            34,
+            24
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            23,
+            34,
+            22
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            20,
+            21,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            24,
+            34,
+            21
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            18,
+            19,
+            20
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            31,
+            30,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            53,
+            35
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            43,
+            55
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            55,
+            48
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            53,
+            51,
+            35
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            49,
+            54
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            48,
+            49
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            54,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            27,
+            28,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            28,
+            31,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            31,
+            41,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            52,
+            51,
+            53
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            44,
+            34,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            34,
+            45,
+            43
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            44,
+            45,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            23,
+            26,
+            34
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            27,
+            34,
+            26
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            29,
+            41,
+            30
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            29,
+            56,
+            41
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "4b2101750f044e0985057ecc3a87444e"
+    },
+    {
+      "name": "Box left",
+      "vertices": [
+        [
+          -550.0,
+          408.5786437988281,
+          0.0
+        ],
+        [
+          -550.0,
+          450.0,
+          0.0
+        ],
+        [
+          -550.0,
+          408.5786437988281,
+          150.0
+        ],
+        [
+          -550.0,
+          450.0,
+          150.0
+        ],
+        [
+          -291.4213562011719,
+          150.0,
+          0.0
+        ],
+        [
+          -250.0,
+          150.0,
+          0.0
+        ],
+        [
+          -291.4213562011719,
+          150.0,
+          150.0
+        ],
+        [
+          -250.0,
+          150.0,
+          150.0
+        ],
+        [
+          -250.0,
+          450.0,
+          0.0
+        ],
+        [
+          -250.0,
+          450.0,
+          150.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            1,
+            0,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            4,
+            0
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            3,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            2,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            5,
+            7,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            7,
+            6,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            5,
+            9,
+            7
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            7,
+            9,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            8,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            5,
+            8,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            6,
+            9
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            9,
+            8
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            0,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            4,
+            6
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "ee69e8ae0e8d40a8915f7b85c1b6d8c8"
+    },
+    {
+      "name": "Box right",
+      "vertices": [
+        [
+          -550.0,
+          -450.0,
+          0.0
+        ],
+        [
+          -550.0,
+          -450.0,
+          150.0
+        ],
+        [
+          -550.0,
+          -157.10678100585938,
+          0.0
+        ],
+        [
+          -550.0,
+          -157.10678100585938,
+          150.0
+        ],
+        [
+          -257.1067810058594,
+          -450.0,
+          0.0
+        ],
+        [
+          -257.1067810058594,
+          -450.0,
+          150.0
+        ]
+      ],
+      "faces": [
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            2,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            5,
+            1
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            5,
+            3
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            1,
+            3,
+            2
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            0,
+            4,
+            5
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "indices": [
+            3,
+            5,
+            4
+          ],
+          "material": "levels\\test\\tutorial\\shaders\\example_tutorial_panels.shader_environment",
+          "scale": [
+            100.0,
+            100.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0
+        }
+      ],
+      "kind": "solid",
+      "id": "7a7cc463fbc84bdf9482abe30cd596c6"
+    }
+  ],
+  "markers": [
+    {
+      "name": "Player start",
+      "kind": "player_start",
+      "position": [
+        -650,
+        -650,
+        50
+      ],
+      "yaw": 45,
+      "team": 0,
+      "tag": "",
+      "id": "8fc45e71d8724dcda5638af9505ee4ee"
+    },
+    {
+      "name": "Blue start",
+      "kind": "player_start",
+      "position": [
+        650,
+        -650,
+        50
+      ],
+      "yaw": 135,
+      "team": 1,
+      "tag": "",
+      "id": "afa2311d90c1466f82eaaa317b6891ef"
+    }
+  ],
+  "grid": 25.0,
+  "snap": true,
+  "hek": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HCEEK",
+  "level_dir": "levels\\blamhammer\\blamhammer_features",
+  "bsp": "blamhammer_features",
+  "scenario_type": "multiplayer",
+  "sky": "sky\\sky_icefields\\sky_icefields",
+  "author": "",
+  "notes": "",
+  "version": 1
+}

@@ -1,0 +1,2 @@
+game_variant slayer
+map_name levels\blamhammer\blamhammer_features\blamhammer_features
