@@ -19,7 +19,7 @@ BlamHammer! integrates with the official Halo CE Editing Kit (HCEEK), allowing u
 
 ### Editor Interface
 
-![BlamHammer Editor](screenshots/editor.png)
+[![BlamHammer Editor](screenshots/editor.png)](https://github.com/eldiscordia1/BlamHammer/blob/main/Screenshot%202026-10-24%20201107.png)
 
 *The main BlamHammer interface, featuring multiple viewports, geometry editing tools, and the Halo shader browser.*
 
