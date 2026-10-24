@@ -4,127 +4,131 @@
 
 ![Status](https://img.shields.io/badge/Status-Alpha-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
-![Source](https://img.shields.io/badge/Source-Closed--Source-red)
-![Game](https://img.shields.io/badge/Game-Halo%20CE%20MCC-green)
+![Source](https://img.shields.io/badge/Source-Open%20Source-brightgreen)
+![AI](https://img.shields.io/badge/Developed%20with-GPT--6%20Astra-purple)
 
 ## About
 
-**BlamHammer! (BHammer)** is a standalone 3D level editor inspired by Valve's Hammer Editor and J.A.C.K., designed specifically for creating custom maps for **Halo: Combat Evolved in The Master Chief Collection**.
+**BlamHammer! (BHammer)** is an open-source 3D level editor inspired by Valve's Hammer Editor and J.A.C.K., designed for **Halo: Combat Evolved in The Master Chief Collection**.
 
-The goal is to simplify Halo CE map creation through an intuitive brush-based workflow, reducing the need to rely on external modeling software such as Blender.
+Developed with **GPT-6 Astra by OpenAI**, BlamHammer aims to simplify Halo CE level creation through an intuitive brush-based workflow, reducing the need for external modeling software like Blender.
 
-BlamHammer! integrates with the official Halo CE Editing Kit (HCEEK), allowing users to create geometry, apply materials, export JMS files, compile scenarios, and test maps in Halo CE.
+The editor integrates with the official Halo CE Editing Kit (HCEEK), supporting geometry creation, shader application, JMS export, BSP compilation, and scenario editing workflows.
 
 ## Screenshots
 
 ### Editor Interface
 
-[![BlamHammer Editor](screenshots/editor.png)](https://github.com/eldiscordia1/BlamHammer/blob/main/Screenshot%202026-10-24%20201107.png)
+![BlamHammer Editor](Screenshot%202026-10-24%20201107.png)
 
-*The main BlamHammer interface, featuring multiple viewports, geometry editing tools, and the Halo shader browser.*
+*BlamHammer's editor interface, featuring multiple viewports and geometry editing tools.*
 
-### In-Game Results
+### In-Game — Halo CE Tag Test
 
-[![BlamHammer In-Game](screenshots/ingame.png)](https://github.com/eldiscordia1/BlamHammer/blob/main/Screenshot%202026-10-24%20201218.png)
+![BlamHammer In-Game](Screenshot%202026-10-24%20201218.png)
 
-*A custom Halo CE map created using BlamHammer and loaded in the game.*
+*A custom map created with BlamHammer, compiled and loaded in Halo CE Tag Test.*
 
 ## Features
 
 ### Geometry Editing
-- Hammer-style brush creation and manipulation.
-- Four synchronized viewports: 3D, Top, Front, and Side.
-- Vertex, edge, and face editing.
-- Grid snapping for precise geometry placement.
-- Brush resizing and transformation.
-- Undo and redo support.
-- Geometry validation to prevent invalid operations.
+
+- Hammer-style brush creation and editing.
+- Four viewports: 3D, Top, Front, and Side.
+- Vertex, edge, and face manipulation.
+- Grid snapping.
+- Brush resizing and transformations.
+- Undo and redo.
+- Automatic geometry validation.
 
 ### Subdivision Tool
-- Subdivide geometry into editable sections.
-- Create custom terrain, hills, slopes, and irregular surfaces.
-- Manipulate subdivided vertices.
-- Export subdivided geometry through the Halo CE JMS/BSP pipeline.
 
-### Advanced Clipping Tool
-Cut brushes using three selectable modes:
+- Subdivide surfaces into editable grids.
+- Create custom terrain, hills, slopes, and irregular geometry.
+- Edit individual vertices.
+- Export subdivided geometry to Halo CE.
 
-- **Keep Left** — Preserve the left portion.
-- **Keep Right** — Preserve the right portion.
-- **Keep Both** — Preserve both portions as separate brushes.
+### Clipping Tool
+
+Three selectable clipping modes:
+
+- **Keep Left** — Keep the left portion.
+- **Keep Right** — Keep the right portion.
+- **Keep Both** — Preserve both parts as separate brushes.
 
 ### Halo CE Integration
-- Browse and apply real Halo CE shaders.
-- Shader previews and material searching.
-- Import existing BSP geometry for editing.
-- Export custom geometry to JMS.
-- Build BSPs using the official Halo CE tools.
-- Compile scenarios and build playable `.map` files.
-- Open scenarios directly in Sapien.
-- Configure sky tags, scenario types, and project settings.
-- Place basic scenario entities and player spawns.
+
+- Browse and apply original Halo CE shaders.
+- Texture previews and material searching.
+- **Import existing BSP geometry.**
+- Export geometry to JMS.
+- Compile BSPs and scenarios.
+- Build playable `.map` files.
+- Open scenarios in Sapien.
+- Configure sky tags and scenario types.
+- Basic entity and spawn placement.
+- Compiler logs and error reporting.
 
 ### Project Management
-- Native `.hceproject` format.
-- Save and reopen editable projects.
-- Configurable HCEEK installation paths.
+
+- Native `.hceproject` project format.
+- Save and load editable projects.
+- Configurable HCEEK paths.
 - Project metadata and author information.
-- Compiler output and error logging.
 
 ## Development Status
 
 **BlamHammer! is currently in ALPHA.**
 
-The editor is functional and has successfully been used to create, compile, and load custom maps in Halo: Combat Evolved.
+The editor is functional and has successfully created, compiled, and loaded custom levels in Halo CE.
 
-Core features such as brush editing, clipping, subdivision, shader application, and geometry compilation are implemented.
+Although some minor bugs and limitations remain, most do not significantly affect normal map creation.
 
-However, the project is still under active development.
+More complex operations may still produce unexpected results.
 
-### Known Issues
+The project is actively evolving, and some features may change in future versions.
 
-BlamHammer! currently contains some minor bugs and limitations.
+## Open Source
 
-Most known issues are not significantly disruptive to normal map creation, although certain operations or complex geometry may still cause unexpected behavior.
+**BlamHammer! is an open-source project.**
 
-Features may change, and stability improvements are ongoing.
+Its source code is publicly available for developers and Halo modders to inspect, study, and contribute to.
 
-**Alpha does not mean feature-complete or bug-free.**
+The project was developed with the assistance of **OpenAI's GPT-6 Astra**, which helped implement the editor, geometry tools, Halo CE integration, and compilation workflows.
 
-## Source Code Availability
+Contributions, bug reports, and suggestions are welcome.
 
-**BlamHammer! is currently CLOSED SOURCE.**
-
-The source code is not publicly available at this stage.
-
-The project may become open-source in the future, but no specific date or commitment has been established.
+See the repository's LICENSE file for the applicable terms.
 
 ## Requirements
 
 - Windows
 - Halo: The Master Chief Collection
 - Halo: Combat Evolved Editing Kit (HCEEK)
-- A valid installation of the official Halo CE modding tools
+- Official Halo CE modding tools
 
 ## Future Plans
 
-Potential improvements include:
-
 - More advanced terrain editing.
-- Improved BSP importing and editing.
-- Expanded entity and scenery support.
-- Better texture and UV manipulation.
-- Additional Hammer-style editing tools.
-- Performance improvements and bug fixes.
+- Improved BSP importing.
+- Expanded entity support.
+- Better UV and material editing.
+- Performance optimizations.
+- Bug fixes and stability improvements.
 
-These are development goals and are not guaranteed features.
+## Credits
+
+**Project:** BlamHammer! (BHammer)
+
+**Development:** Created with GPT-6 Astra by OpenAI.
+
+**Inspired by:** Valve Hammer Editor and J.A.C.K.
+
+**Game integration:** Halo: Combat Evolved Editing Kit (HCEEK).
 
 ## Disclaimer
 
-BlamHammer! is an unofficial community project.
-
-It is not affiliated with, endorsed by, or sponsored by Microsoft, Xbox Game Studios, Halo Studios, Bungie, or Valve.
+BlamHammer! is an unofficial community project and is not affiliated with Microsoft, Halo Studios, Bungie, Valve, or OpenAI.
 
 Halo and related trademarks belong to their respective owners.
 
-Valve Hammer Editor and J.A.C.K. are referenced as inspirations for the interface and editing workflow.
