@@ -25,7 +25,7 @@ BlamHammer! integrates with the official Halo CE Editing Kit (HCEEK), allowing u
 
 ### In-Game Results
 
-![BlamHammer In-Game](screenshots/ingame.png)
+[![BlamHammer In-Game](screenshots/ingame.png)](https://github.com/eldiscordia1/BlamHammer/blob/main/Screenshot%202026-10-24%20201218.png)
 
 *A custom Halo CE map created using BlamHammer and loaded in the game.*
 
